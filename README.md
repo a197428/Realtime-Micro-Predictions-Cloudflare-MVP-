@@ -97,8 +97,9 @@
 ## 🚀 Запуск локально
 
 ```bash
-# Переходим в папку проекта
-cd realtime-predictions
+# Клонируем репозиторий
+git clone https://github.com/a197428/Realtime-Micro-Predictions-Cloudflare-MVP-
+cd Realtime-Micro-Predictions-Cloudflare-MVP-
 
 # Устанавливаем зависимости
 npm install
@@ -117,7 +118,7 @@ npm run dev
 # Логин
 npx wrangler login
 
-# Деплой
+# Деплой (из корня репозитория)
 npm run deploy
 ```
 
